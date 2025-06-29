@@ -203,7 +203,6 @@ class ZoteroDownloader:
             
             # Get file extension from original filename
             file_extension = self.get_file_extension(attachment)
-            #file_extension = ".pdf" # Just default to .pdf
             
             # Create download directory if it doesn't exist
             Path(download_dir).mkdir(parents=True, exist_ok=True)
